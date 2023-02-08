@@ -1,5 +1,5 @@
 
-# MosesSMT: User Guide#
+# MosesSMT: User Guide
 
 Moses is a statistical machine translation system that allows you to automatically train translation models for any language pair.
 
