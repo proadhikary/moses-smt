@@ -1,7 +1,10 @@
 
 # MosesSMT: User Guide
 
-Moses is a statistical machine translation system that allows you to automatically train translation models for any language pair.
+Moses is a statistical machine translation system that allows you to automatically train translation models for any language pair. For a hands on tutorial, click on the image below.<br>
+<p align="center">
+<a href="https://youtu.be/ELVQRQf7auY"><img src="https://github.com/human71/moses-smt/blob/main/moses.png" alt="Moses Installation Video"></a>
+</p>
 
 ### Step 01 : Installing `Docker.io` from APT ###
 ```
