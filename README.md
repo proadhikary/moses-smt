@@ -108,7 +108,7 @@ python moses.py train -e enhi -s en -t hi
 
 ## Step 09: Testing ###
 Make a folder inside moses-models named test and keep the text you want to test inside the
-`src.txt` file. Then, save the following code as $test.sh and run $./test.sh
+`src.txt` file. Then, download the `test.sh` file and run `bash test.sh`
 OR directly copy and paste the following code into terminal:
 
 ```
