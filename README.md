@@ -21,7 +21,7 @@ sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
 
 ```
-sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
+sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
 ```
 
 And paste the following lines into `http-proxy.conf` file:
@@ -47,7 +47,7 @@ sudo systemctl restart docker.service
 
 ### Step 02 : Pulling Moses-SMT from `Docker.io` ###
 ```
-docker pull techiaith/moses-smt
+sudo docker pull techiaith/moses-smt
 ```
 This will download and install a Moses machine translation system within your Docker environment.
 
@@ -64,7 +64,7 @@ cd moses-smt
 
 ### Step 05: Run the `Makefile` ###
 ```
-make run
+sudo make run
 ```
 The running Docker container will respond.
 
@@ -74,7 +74,7 @@ you cloned, it should reflect in the docker `root` directory, if not, `exit` fro
 from `${PWD}` to the `/home/your-username/moses-smt` and run:
 
 ```
-docker stop moses-smt
+sudo docker stop moses-smt
 ```
 
 ```
@@ -82,7 +82,7 @@ sudo make stop
 ```
 
 ```
-make run
+sudo make run
 ```
 
 ## Step 07: Folder Creation ###
