@@ -98,6 +98,9 @@ In the github repo, make a folder named enhi under the folder moses-models, and 
 &emsp;&emsp;&emsp;|——— test <br>
 &emsp;&emsp;&emsp;&emsp;&emsp;|——— test.sh <br>
 &emsp;&emsp;&emsp;&emsp;&emsp;|——— src.txt <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;|——— pred.txt <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;|——— gold.txt <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;|——— multi-bleu.perl <br>
 
 ## Step 08: Training ###
 Go to the folder moses-smt in the docker shell and run the following for training:
