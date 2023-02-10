@@ -122,7 +122,7 @@ done < "src.txt"
 ```
 
 ## Step 10: Evaluation`(BLEU)` ###
-Inside text folder create `gold.txt` with original tranlation abd run the following evaluate your file using BLEU.
+Inside text folder create `gold.txt` with original tranlation and run the following evaluate your file using BLEU.
 
 ```
 perl multi-bleu.perl gold.txt < pred.txt
