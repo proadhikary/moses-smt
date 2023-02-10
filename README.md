@@ -122,7 +122,7 @@ done < "src.txt"
 Inside text folder create `gold.txt` with original tranlation abd run the following evaluate your file using BLEU.
 
 ```
-./multi-bleu.perl gold.txt < pred.txt
+perl multi-bleu.perl gold.txt < pred.txt
 ```
 
 ## OS compatibility ##
