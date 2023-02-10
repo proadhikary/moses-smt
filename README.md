@@ -119,10 +119,10 @@ done < "src.txt"
 ```
 
 ## Step 10: Evaluation`(BLEU)` ###
-Inside text folder create `target_gold.txt` with original tranlation abd run the following evaluate your file using BLEU.
+Inside text folder create `gold.txt` with original tranlation abd run the following evaluate your file using BLEU.
 
 ```
-./multi-bleu.pl target_gold.txt < pred.txt
+./multi-bleu.pl gold.txt < pred.txt
 ```
 
 ## OS compatibility ##
