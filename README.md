@@ -127,6 +127,7 @@ Inside text folder create `gold.txt` with original tranlation abd run the follow
 ```
 perl multi-bleu.perl gold.txt < pred.txt
 ```
+For GUI Evaluator, visit https://www.letsmt.eu/Bleu.aspx and upload gold and pred data.
 
 ## OS compatibility ##
 Any kind of Linux Distro or WSL.
